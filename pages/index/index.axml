@@ -1,0 +1,20 @@
+<view class="container">
+  <include src="./header.axml" />
+  <view class="page">
+    <view class="page-section">
+      <view class="page-section-demo">
+        <text>Longitude</text>
+        <input type="text" disabled="{{true}}" value="{{longitude}}" name="longitude"></input>
+      </view>
+      <view class="page-section-demo">
+        <text>Latitude</text>
+        <input type="text" disabled="{{true}}"  value="{{latitude}}" name="latitude"></input>
+      </view>
+      <view class="page-section-demo">
+        <text>Name</text>
+        <input type="text" disabled="{{true}}"  value="{{name}}" name="name"></input>
+      </view>
+         </view>
+  </view>
+<include src="./footer.axml" />
+</view>
